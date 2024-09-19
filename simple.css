@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #02171b;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2.5rem;
+  }
+  
+  header .logo span {
+    color: #dbf305;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a:hover {
+    color: #fcfdfd;
+    hover-color: #f9f9f9;
+  }
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+#home {
+    background-color: #f9f9f9;
+}
+#home {
+  height: 100vh;
+ /*  background-image: url('https://via.placeholder.com/1500x800'); */
+ background-image: url('house-in-the-woods-1920x1080-wallpaper-15677.jpg');
+  background-size: 2;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:200vh;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+#about {
+    background-color: #e2e2e2;
+}
+
+#contact {
+    background-color: #d1d1d1;
+}
+footer {
+  background-color: #1c1b1b;
+  color: #e5dede;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
